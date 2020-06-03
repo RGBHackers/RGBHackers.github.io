@@ -37,7 +37,7 @@ $(window).on("load", function () {
   function setup () {
     //document.getElementById('loader-wrapper').classList.toggle("fade");
     //document.getElementById('loader-wrapper').style.opacity = 0.9
-    document.getElementById('change-overflow').style.overflow = "auto"
+    //document.getElementById('change-overflow').style.overflow = "auto"
     incOpacity2()
   }
   function incOpacity () {
@@ -56,6 +56,7 @@ $(window).on("load", function () {
     }
     else {
       document.getElementById('loader-wrapper').style.zIndex = "-9999999999"
+      document.getElementById('change-overflow').style.overflow = "auto"
       document.getElementById('loader-wrapper').style.opacity = 0
     }
   }
