@@ -29,9 +29,10 @@ $(document).ready(function () {
 });
 
 $(window).on("load", function () {
+  document.getElementById("myload").src = "https://raw.githubusercontent.com/RGBHackers/RGBHackers.github.io/master/img/loader.svg?" + Math.random();
   setTimeout(
     function() {
       document.getElementById('loader-wrapper').style.display = "none"
       document.getElementById('change-overflow').style.overflow = "auto"
-    }, 5000);
+    }, 4500);
 });
