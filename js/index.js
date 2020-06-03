@@ -32,7 +32,8 @@ $(window).on("load", function () {
   document.getElementById("myload").src = "https://raw.githubusercontent.com/RGBHackers/RGBHackers.github.io/master/img/loader.svg?" + Math.random();
   setTimeout(
     function() {
-      document.getElementById('loader-wrapper').style.display = "none"
+      document.getElementById('loader-wrapper').classList.toggle("fade");
+      document.getElementById('loader-wrapper').style.zIndex = "-9999999999"
       document.getElementById('change-overflow').style.overflow = "auto"
-    }, 4500);
+    }, 4000);
 });

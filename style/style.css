@@ -1,3 +1,7 @@
+* {
+  transition: opacity 0.6 ease-in-out;
+}
+
 body {
   margin: 0 auto;
   font-family: "Space Mono", monospace;
@@ -15,7 +19,7 @@ body {
   top: 0;
   left: 0;
   background-color: white;
-  z-index: 999999999999999999;
+  z-index: 99999;
   display: flex;
   justify-content: center;
   align-items: center;
