@@ -55,9 +55,8 @@ $(window).on("load", function () {
       setTimeout(incOpacity2,30)
     }
     else {
-      //document.getElementById('change-overflow').style.opacity = 0;
+      document.getElementById('loader-wrapper').style.zIndex = "-9999999999"
       document.getElementById('loader-wrapper').style.opacity = 0
-      //incOpacity()
     }
   }
 });
