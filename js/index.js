@@ -27,3 +27,11 @@ $(document).ready(function () {
     return false;
   });
 });
+
+$(window).on("load", function () {
+  setTimeout(
+    function() {
+      document.getElementById('loader-wrapper').style.display = "none"
+      document.getElementById('change-overflow').style.overflow = "auto"
+    }, 5000);
+});

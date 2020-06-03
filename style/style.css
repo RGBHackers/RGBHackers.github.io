@@ -8,6 +8,10 @@ body {
   background-attachment: fixed;
 }
 
+#change-overflow{
+  overflow: hidden;
+}
+
 html {
   scroll-behavior: smooth;
 }

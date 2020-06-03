@@ -25,7 +25,88 @@
    </script>
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body id="change-overflow" data-spy="scroll" data-target=".navbar" data-offset="50">
+   <style>
+      .loader {
+         display: inline-block;
+         width: 30px;
+         height: 30px;
+         position: relative;
+         top: 5%;
+         border: 4px solid black;
+         animation: loader 2s infinite ease;
+         z-index: 999999999999999999;
+      }
+
+      .loader-wrapper {
+         width: 100%;
+         height: 100vh;
+         position: absolute;
+         top: 0;
+         left: 0;
+         background-color: white;
+         z-index: 999999999999999999;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+
+      .loader-inner {
+         vertical-align: top;
+         display: inline-block;
+         width: 100%;
+         background-color: #fff;
+         animation: loader-inner 2s infinite ease-in;
+      }
+
+      @keyframes loader {
+         0% {
+            transform: rotate(0deg);
+         }
+
+         25% {
+            transform: rotate(180deg);
+         }
+
+         50% {
+            transform: rotate(180deg);
+         }
+
+         75% {
+            transform: rotate(360deg);
+         }
+
+         100% {
+            transform: rotate(360deg);
+         }
+      }
+
+      @keyframes loader-inner {
+         0% {
+            height: 0%;
+         }
+
+         25% {
+            height: 0%;
+         }
+
+         50% {
+            height: 100%;
+         }
+
+         75% {
+            height: 100%;
+         }
+
+         100% {
+            height: 0%;
+         }
+      }
+   </style>
+   <div id="loader-wrapper" class="loader-wrapper" style="height: 100vh;">
+      <!-- <object type="image/svg+xml" data="./img/loader.svg">Your browser does not support SVG</object> -->
+      <img style="width: 90%; height: 90%;" src="https://raw.githubusercontent.com/RGBHackers/RGBHackers.github.io/master/img/loader.svg">
+   </div>
    <script>
       AOS.init();
    </script>
@@ -234,7 +315,8 @@
                   </a>
                </div>
                <div class="content-box" style="float: left; padding: 3vh;" data-aos="fade-up-right">
-                  <a style="color: black; text-decoration: underline;" href="https://fabric-2121.herokuapp.com" target="_blank">
+                  <a style="color: black; text-decoration: underline;" href="https://fabric-2121.herokuapp.com"
+                     target="_blank">
                      <p class="pixel-font" style="text-align: left; font-size: 4vh;">Fabric</p>
                   </a>
                   <p style="font-size: 3.16vh; margin-bottom: 0;">Fabric is an engaging, lightweight, and secure
