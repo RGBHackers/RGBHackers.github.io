@@ -2,6 +2,8 @@
 <html>
 
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
         <link rel="stylesheet" type="text/css" href="./style/style.css" />
         <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
@@ -26,551 +28,556 @@
     </head>
 
     <body id="change-overflow" data-spy="scroll" data-target=".navbar" data-offset="50">
-        <div id="loader-wrapper" class="loader-wrapper" style="height: 100vh;">
-            <img style="width: 90%; height: 90%;" id="myload">
-        </div>
-        <script>
-            AOS.init();
-        </script>
-        <svg width="0" height="0" class="hidden">
-            <svg width="0" height="0" class="hidden">
-                <symbol viewBox="0 0 24 24" id="github-icon">
-                <path
-                    d="M10.9 2.1c-4.6.5-8.3 4.2-8.8 8.7-.5 4.7 2.2 8.9 6.3 10.5.3.1.6-.1.6-.5v-1.6s-.4.1-.9.1c-1.4 0-2-1.2-2.1-1.9-.1-.4-.3-.7-.6-1-.3-.1-.4-.1-.4-.2 0-.2.3-.2.4-.2.6 0 1.1.7 1.3 1 .5.8 1.1 1 1.4 1 .4 0 .7-.1.9-.2.1-.7.4-1.4 1-1.8-2.3-.5-4-1.8-4-4 0-1.1.5-2.2 1.2-3-.1-.2-.2-.7-.2-1.4 0-.4 0-.9.2-1.3 0-.2.2-.3.3-.3h.1c.5.1 1.5.4 2.4 1.3.6-.2 1.3-.3 2-.3s1.4.1 2 .3c.9-.9 2-1.2 2.5-1.3h.1c.2 0 .3.1.4.3v1.3c0 .8-.1 1.2-.2 1.4.7.8 1.2 1.8 1.2 3 0 2.2-1.7 3.5-4 4 .6.5 1 1.4 1 2.3v2.6c0 .3.3.6.7.5 3.7-1.5 6.3-5.1 6.3-9.3 0-6-5.1-10.7-11.1-10z">
-                </path>
-                </symbol>
-                <symbol viewBox="0 0 50 50" id="devpost">
-                <path
-                    d="M13.938 7L3.851 25.004 14.199 43h21.864l10.082-18L36.062 7zM18 15h7.156C30.598 15 35 19.473 35 25s-4.402 10-9.844 10H18zm4 4v12h3c3.309 0 6-2.691 6-6s-2.691-6-6-6z">
-                </path>
-                </symbol>
-                <symbol viewBox="0 0 512 512" id="linkedin">
-                <path
-                    d="M475.074 0H36.926C16.53 0 0 16.531 0 36.926v438.148C0 495.47 16.531 512 36.926 512h438.148C495.47 512 512 495.469 512 475.074V36.926C512 16.53 495.469 0 475.074 0zM181.61 387h-62.347V199.426h62.347zm-31.172-213.188h-.406c-20.922 0-34.453-14.402-34.453-32.402 0-18.406 13.945-32.41 35.274-32.41 21.328 0 34.453 14.004 34.859 32.41 0 18-13.531 32.403-35.274 32.403zM406.423 387h-62.34V286.652c0-25.218-9.027-42.418-31.586-42.418-17.223 0-27.48 11.602-31.988 22.801-1.649 4.008-2.051 9.61-2.051 15.215V387h-62.344s.817-169.977 0-187.574h62.344v26.558c8.285-12.78 23.11-30.96 56.188-30.96 41.02 0 71.777 26.808 71.777 84.421zm0 0">
-                </path>
-                </symbol>
-                <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="email">
-                <path
-                    d="M464 64H48C21.504 64 0 85.504 0 112v288c0 26.496 21.504 48 48 48h416c26.496 0 48-21.504 48-48V112c0-26.496-21.504-48-48-48zm-56.512 32L256 215.616 104.512 96h302.976zM448 416H64V148.672l192 147.68L448 148.64V416z">
-                </path>
-                </symbol>
-            </svg>
-        </svg>
-        <nav class="navbar navbar-inverse navbar-expand-lg navbar-light shadow fixed-top header" id="header"
-                                                                                                 data-aos="fade-down">
-            <div class="container">
-                <a href="#">
-                    <b class="navbar-brand p2p" href="#top"><b></b><r>R</r><g>G</g><bl>B</bl>Hack</b>
-                </a>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                                                                                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#awards">Awards</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#team" style="margin-right: 0;">Team</a>
-                        </li>
-                    </ul>
-                </div>
+        <div class="everything">
+            <div id="loader-wrapper" class="loader-wrapper" style="height: 100vh;">
+                <img style="width: 90%; height: 90%;" id="myload">
             </div>
-        </nav>
-        <div class="main" id="top">
-            <div class="section-top">
-                <div class="main-box" data-aos="fade-right">
-                    <div class="title-div">
-                        <p class="title-text" style="margin-bottom: 10px; margin-top: 5px; font-family: 'Space Mono'">
-                            We’re a team of 4 high <br />
-                            school students who <br />
-                        </p>
-                        <div>
-                            <p class="title-text" style="margin: 0;">
+            <script>
+                AOS.init();
+            </script>
+            <svg width="0" height="0" class="hidden">
+                <svg width="0" height="0" class="hidden">
+                    <symbol viewBox="0 0 24 24" id="github-icon">
+                    <path
+                        d="M10.9 2.1c-4.6.5-8.3 4.2-8.8 8.7-.5 4.7 2.2 8.9 6.3 10.5.3.1.6-.1.6-.5v-1.6s-.4.1-.9.1c-1.4 0-2-1.2-2.1-1.9-.1-.4-.3-.7-.6-1-.3-.1-.4-.1-.4-.2 0-.2.3-.2.4-.2.6 0 1.1.7 1.3 1 .5.8 1.1 1 1.4 1 .4 0 .7-.1.9-.2.1-.7.4-1.4 1-1.8-2.3-.5-4-1.8-4-4 0-1.1.5-2.2 1.2-3-.1-.2-.2-.7-.2-1.4 0-.4 0-.9.2-1.3 0-.2.2-.3.3-.3h.1c.5.1 1.5.4 2.4 1.3.6-.2 1.3-.3 2-.3s1.4.1 2 .3c.9-.9 2-1.2 2.5-1.3h.1c.2 0 .3.1.4.3v1.3c0 .8-.1 1.2-.2 1.4.7.8 1.2 1.8 1.2 3 0 2.2-1.7 3.5-4 4 .6.5 1 1.4 1 2.3v2.6c0 .3.3.6.7.5 3.7-1.5 6.3-5.1 6.3-9.3 0-6-5.1-10.7-11.1-10z">
+                    </path>
+                    </symbol>
+                    <symbol viewBox="0 0 50 50" id="devpost">
+                    <path
+                        d="M13.938 7L3.851 25.004 14.199 43h21.864l10.082-18L36.062 7zM18 15h7.156C30.598 15 35 19.473 35 25s-4.402 10-9.844 10H18zm4 4v12h3c3.309 0 6-2.691 6-6s-2.691-6-6-6z">
+                    </path>
+                    </symbol>
+                    <symbol viewBox="0 0 512 512" id="linkedin">
+                    <path
+                        d="M475.074 0H36.926C16.53 0 0 16.531 0 36.926v438.148C0 495.47 16.531 512 36.926 512h438.148C495.47 512 512 495.469 512 475.074V36.926C512 16.53 495.469 0 475.074 0zM181.61 387h-62.347V199.426h62.347zm-31.172-213.188h-.406c-20.922 0-34.453-14.402-34.453-32.402 0-18.406 13.945-32.41 35.274-32.41 21.328 0 34.453 14.004 34.859 32.41 0 18-13.531 32.403-35.274 32.403zM406.423 387h-62.34V286.652c0-25.218-9.027-42.418-31.586-42.418-17.223 0-27.48 11.602-31.988 22.801-1.649 4.008-2.051 9.61-2.051 15.215V387h-62.344s.817-169.977 0-187.574h62.344v26.558c8.285-12.78 23.11-30.96 56.188-30.96 41.02 0 71.777 26.808 71.777 84.421zm0 0">
+                    </path>
+                    </symbol>
+                    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="email">
+                    <path
+                        d="M464 64H48C21.504 64 0 85.504 0 112v288c0 26.496 21.504 48 48 48h416c26.496 0 48-21.504 48-48V112c0-26.496-21.504-48-48-48zm-56.512 32L256 215.616 104.512 96h302.976zM448 416H64V148.672l192 147.68L448 148.64V416z">
+                    </path>
+                    </symbol>
+                </svg>
+            </svg>
+            <nav class="navbar navbar-inverse navbar-expand-lg navbar-light shadow fixed-top header" id="header"
+                                                                                                     data-aos="fade-down">
+                <div class="container">
+                    <a href="#">
+                        <b class="navbar-brand p2p" href="#top"><b></b><r>R</r><g>G</g><bl>B</bl>Hack</b>
+                    </a>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                                                                                        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#awards">Awards</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#team" style="margin-right: 0;">Team</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="main" id="top">
+                <div class="section-top">
+                    <div class="main-box" data-aos="fade-right">
+                        <div class="title-div">
+                            <p class="title-text" style="margin-bottom: 10px; margin-top: 5px; font-family: 'Space Mono'">
+                                We’re a team of 4 high <br />
+                                school students who <br />
+                            </p>
+                            <div>
+                                <p class="title-text" style="margin: 0;">
+                                    <span style="background: -webkit-linear-gradient(
+                                    0deg,
+                                    #f64040ff,
+                                    #ffb217ff
+                                    ); 
+                                    background-clip: text;
+                                    -webkit-background-clip: text;
+                                    -webkit-text-fill-color: transparent; font-family: 'Press Start 2P';">Reimagine</span><br />
                                 <span style="background: -webkit-linear-gradient(
                                 0deg,
-                                #f64040ff,
-                                #ffb217ff
+                                #3cff4aff,
+                                #2bffe5ff
                                 ); 
                                 background-clip: text;
                                 -webkit-background-clip: text;
-                                -webkit-text-fill-color: transparent; font-family: 'Press Start 2P';">Reimagine</span><br />
+                                -webkit-text-fill-color: transparent;font-family: 'Press Start 2P';">Generate</span><br />
                             <span style="background: -webkit-linear-gradient(
                             0deg,
-                            #3cff4aff,
-                            #2bffe5ff
+                            #2e56ffff,
+                            #774cffff
                             ); 
                             background-clip: text;
                             -webkit-background-clip: text;
-                            -webkit-text-fill-color: transparent;font-family: 'Press Start 2P';">Generate</span><br />
-                        <span style="background: -webkit-linear-gradient(
-                        0deg,
-                        #2e56ffff,
-                        #774cffff
-                        ); 
-                        background-clip: text;
-                        -webkit-background-clip: text;
-                        -webkit-text-fill-color: transparent;font-family: 'Press Start 2P';">Build</span>
-                        <br />
+                            -webkit-text-fill-color: transparent;font-family: 'Press Start 2P';">Build</span>
+                            <br />
+                                </p>
+                            </div>
+                            <p class="title-text" style="margin-top: 0; margin-bottom: 5px; font-family: 'Space Mono'">
+                                through <b>computer science</b>.
                             </p>
                         </div>
-                        <p class="title-text" style="margin-top: 0; margin-bottom: 5px; font-family: 'Space Mono'">
-                            through <b>computer science</b>.
-                        </p>
-                    </div>
-                    <div class="RGB-div">
-                        <div class="RGB-box" style="background: -webkit-linear-gradient(
-                        270deg,
-                        #f64040ff,
-                        #ffb217ff
-                        );">
-                            <span class="RGB-text">R</span>
-                        </div>
-                        <div class="RGB-box" style="background: -webkit-linear-gradient(
-                        270deg,
-                        #3cff4aff,
-                        #2bffe5ff
-                        );">
-                            <span class="RGB-text">G</span>
-                        </div>
-                        <div class="RGB-box" style="background: -webkit-linear-gradient(
-                        270deg,
-                        #2e56ffff,
-                        #774cffff
-                        );">
-                            <span class="RGB-text">B</span>
+                        <div class="RGB-div">
+                            <div class="RGB-box" style="background: -webkit-linear-gradient(
+                            270deg,
+                            #f64040ff,
+                            #ffb217ff
+                            );">
+                                <span class="RGB-text">R</span>
+                            </div>
+                            <div class="RGB-box" style="background: -webkit-linear-gradient(
+                            270deg,
+                            #3cff4aff,
+                            #2bffe5ff
+                            );">
+                                <span class="RGB-text">G</span>
+                            </div>
+                            <div class="RGB-box" style="background: -webkit-linear-gradient(
+                            270deg,
+                            #2e56ffff,
+                            #774cffff
+                            );">
+                                <span class="RGB-text">B</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="content">
-                <div class="section" id="awards" style="padding-top: 15vh;">
-                    <div class="title-box" data-aos="fade-down">
-                        <p class="title">Awards</p>
-                    </div>
-                    <div class="content-div">
-                        <div class="content-box" style="float: left;" data-aos="fade-up-right">
-                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                                </ol>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-90 project-img" style="height: 54vh;"
-                                                                              src="./img/projects/alzheimersai.png" alt="First slide">
+                <div class="content">
+                    <div class="section" id="awards" style="padding-top: 15vh;">
+                        <div class="title-box" data-aos="fade-down">
+                            <p class="title">Awards</p>
+                        </div>
+                        <div class="content-div">
+                            <div class="content-box" style="float: left;" data-aos="fade-up-right">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-90 project-img" style="height: 54vh;"
+                                                                                  src="./img/projects/alzheimersai.png" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-95 project-img" style="height: 54vh;"
+                                                                                  src="./img/projects/alzheimersai_model.png" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block project-img" style="height: 54vh; width: 90%; padding: 20vh 0"
+                                                                             src="./img/projects/spark.png" alt="Third slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-90 project-img" style="height: 54vh;"
+                                                                                  src="./img/projects/spark_model.png" alt="Fourth slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block project-img" style="height: 54vh; width: 105%;"
+                                                                             src="./img/projects/litera.jpg" alt="Fifth slide">
+                                        </div>
                                     </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-95 project-img" style="height: 54vh;"
-                                                                              src="./img/projects/alzheimersai_model.png" alt="Second slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block project-img" style="height: 54vh; width: 90%; padding: 20vh 0"
-                                                                         src="./img/projects/spark.png" alt="Third slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-90 project-img" style="height: 54vh;"
-                                                                              src="./img/projects/spark_model.png" alt="Fourth slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block project-img" style="height: 54vh; width: 105%;"
-                                                                              src="./img/projects/litera.jpg" alt="Fifth slide">
-                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
                                 </div>
-                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
+                            </div>
+                            <div class="content-box" style="float: right; padding: 3vh;" data-aos="fade-up-left">
+                                <p class="pixel-font" style="text-align: center; font-size: 4vh;">Awards</p>
+                                <ul class="award-list">
+                                    <li>EchoAR Award at 2020 Epsilon Hacks</li>
+                                    <li>Work and Economy Track Winner at 2020 World Hackathon Day</li>
+                                    <li>Wolfram Award at 2020 Harmony Hacks Hackathon</li>
+                                    <li>Best Use of Google Cloud Award at 2020 HackDSC Hackathon</li>
+                                    <li>Honorable Mention at 2020 HackDSC Hackathon</li>
+                                    <li>Best Social Good Award at 2020 StanHacks 2 Hackathon</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="section" id="projects" style="padding-top: 15vh; height: 150vh;">
+                        <div class="title-box" data-aos="fade-down">
+                            <p class="title">Projects</p>
+                        </div>
+                        <div class="content-div">
+                            <div class="content-box" style="float: left; padding: 3vh;" data-aos="fade-up-right">
+                                <a style="color: black; text-decoration: underline;" href="https://alzheimersai.tk/" target="_blank">
+                                    <p class="pixel-font" style="text-align: left; font-size: 4vh;">AlzheimersAI</p>
                                 </a>
-                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
+                                <p style="font-size: 3.2vh; margin-bottom: 0;">A website for early detection and tracking of
+                                    Alzheimer's disease using AI. Best Social Good Award at 2020 StanHacks 2 Hackathon, Best Use of
+                                    Google Cloud Award and Honorable Mention at 2020 HackDSC Hackathon.</p>
+                                <a href="https://github.com/RGBHack/AlzheimersAI" target="_blank">
+                                    <svg class="icon" style="height: 5vh; width: 2vw; display: block; margin: 0 auto; float: right;">
+                                        <use xlink:href="#github-icon"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="content-box" style="float: right; padding: 3vh;" data-aos="fade-up-left">
+                                <a style="color: black; text-decoration: underline;" href="https://sparkapp.cf/" target="_blank">
+                                    <p class="pixel-font" style="text-align: left; font-size: 4vh;">Spark</p>
+                                </a>
+                                <p style="font-size: 3.16vh; margin-bottom: 0;">An empowering all-in-one productivity web app.
+                                    Features: Calendar, Tasks, Team Administration,
+                                    Project Tracking, Messages, Meetings and Zoom Integration, Discussion Boards. Wolfram Award at 2020
+                                    Harmony Hacks.</p>
+                                <a href="https://github.com/RGBHack/Spark" target="_blank">
+                                    <svg class="icon" style="height: 5vh; width: 2vw; display: block; margin: 0 auto; float: right;">
+                                        <use xlink:href="#github-icon"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="content-box" style="float: left; padding: 3vh;" data-aos="fade-up-right">
+                                <a style="color: black; text-decoration: underline;" href="https://fabric-2121.herokuapp.com"
+                                                                                     target="_blank">
+                                    <p class="pixel-font" style="text-align: left; font-size: 4vh;">Fabric</p>
+                                </a>
+                                <p style="font-size: 3vh; margin-bottom: 0;">Fabric is an engaging, lightweight, and secure
+                                    classroom whiteboard for teachers and students alike. It uses Python Socket technology to enable
+                                    communication between users and has a built-in profanity filter to maintain a safe environment.</p>
+                                <a href="https://github.com/RGBHack/Fabric" target="_blank">
+                                    <svg class="icon" style="height: 5vh; width: 2vw; display: block; margin: 0 auto; float: right;">
+                                        <use xlink:href="#github-icon"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="content-box" style="float: right; padding: 3vh;" data-aos="fade-up-left">
+                                <a style="color: black; text-decoration: underline;" href="http://litera.cf/" target="_blank">
+                                    <p class="pixel-font" style="text-align: left; font-size: 4vh;">Litera</p>
+                                </a>
+                                <p style="font-size: 3.16vh; margin-bottom: 0;">Litera is an augmented reality learning experience for young students.
+                                    We created Litera to address the general lack of visual-based learning tools in our textbook education system.
+                                    EchoAR Award at 2020 Epsilon Hacks.</p>
+                                <a href="https://github.com/RGBHack/Litera" target="_blank">
+                                    <svg class="icon" style="height: 5vh; width: 2vw; display: block; margin: 0 auto; float: right;">
+                                        <use xlink:href="#github-icon"></use>
+                                    </svg>
                                 </a>
                             </div>
                         </div>
-                        <div class="content-box" style="float: right; padding: 3vh;" data-aos="fade-up-left">
-                            <p class="pixel-font" style="text-align: center; font-size: 4vh;">Awards</p>
-                            <ul class="award-list">
-                                <li>EchoAR Award at 2020 Epsilon Hacks</li>
-                                <li>Work and Economy Track Winner at 2020 World Hackathon Day</li>
-                                <li>Wolfram Award at 2020 Harmony Hacks Hackathon</li>
-                                <li>Best Use of Google Cloud Award at 2020 HackDSC Hackathon</li>
-                                <li>Honorable Mention at 2020 HackDSC Hackathon</li>
-                                <li>Best Social Good Award at 2020 StanHacks 2 Hackathon</li>
-                            </ul>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="section" id="team" style="padding-top: 15vh;">
+                        <div class="title-box" data-aos="fade-down">
+                            <p class="title">Team</p>
+                        </div>
+                        <div style="margin: auto; width: 94%; text-align: justify;">
+                            <div class="team-box"
+                                 style="padding: 3vh; margin-top: 5vh; vertical-align: top; display: inline-block;text-align:center !important"
+                                 data-aos="fade-up-right">
+                                <a style="color: black;">
+                                    <p class="pixel-font" style="text-align: center; font-size: 3vh;">Raadwan<br>Masum</p>
+                                </a>
+
+
+                                <div class="container">
+                                    <table class="table" style="text-align: center; margin-bottom: 0;">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <a href="https://www.linkedin.com/in/raadwan-masum-9147bb1a5/" target="_blank"><svg
+                                                                                                                   height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z">
+                                                            </path>
+                                                        </svg></a>
+                                                </td>
+                                                <td>
+                                                    <a href="https://devpost.com/raad1masum" target="_blank"><svg height="30" id="Layer_1"
+                                                                                                                              version="1.1" viewbox="0 0 280.3 242" width="30" x="0px"
+                                                                                                                                                                               xmlns="http://www.w3.org/2000/svg" y="0px">
+                                                            <g id="XMLID_1_">
+                                                            <path
+                                                                d="M133.7,76H118v90h14.7c30.9,0,45.1-18.1,45.1-45C177.8,90.9,164.9,76,133.7,76z"
+                                                                id="XMLID_6_"></path>
+                                                            <path
+                                                                d="M210.2,0H70.1L0,121l70.1,121h140.1l70.1-121L210.2,0z M132.7,195H89V47h45.8c42.1,0,73.3,20.1,73.3,74 C208.1,172.8,170.6,195,132.7,195z"
+                                                                id="XMLID_9_"></path>
+                                                            </g>
+                                                        </svg></a>
+                                                </td>
+                                                <td>
+                                                    <a href="https://github.com/raad1masum" target="_blank"><svg height="24" role="img"
+                                                                                                                             viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                                            <title>
+                                                                GitHub icon
+                                                            </title>
+                                                            <path
+                                                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
+                                                            </path>
+                                                        </svg></a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <p style="font-size: 1.7vh; margin-top: 0;">
+                                    Hi, I'm Raadwan Masum, but I go by "Gravity" and "SamosaSauce" online. I
+                                    do everything from cybersecurity and robotics to web development and
+                                    competitive programming. Computers, mathematics, and science help explain the world around me;
+                                    I don't know what I would do without them.
+                                </p>
+
+
+
+                            </div>
+                            <div class="team-box"
+                                 style="padding: 3vh; margin-top: 5vh; vertical-align: top; display: inline-block;text-align:center !important"
+                                 data-aos="fade-up-right">
+                                <a style="color: black;">
+                                    <p class="pixel-font" style="text-align: center; font-size: 3vh;">Safin<br>Singh</p>
+                                </a>
+
+
+                                <div class="container">
+                                    <table class="table" style="text-align: center; margin-bottom: 0;">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <a href="https://www.linkedin.com/in/safin-singh-b2630918a/" target="_blank"><svg
+                                                                                                                 height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z">
+                                                            </path>
+                                                        </svg></a>
+                                                </td>
+                                                <td>
+                                                    <a href="https://devpost.com/safinsingh" target="_blank"><svg height="30" id="Layer_1"
+                                                                                                                              version="1.1" viewbox="0 0 280.3 242" width="30" x="0px"
+                                                                                                                                                                               xmlns="http://www.w3.org/2000/svg" y="0px">
+                                                            <g id="XMLID_1_">
+                                                            <path
+                                                                d="M133.7,76H118v90h14.7c30.9,0,45.1-18.1,45.1-45C177.8,90.9,164.9,76,133.7,76z"
+                                                                id="XMLID_6_"></path>
+                                                            <path
+                                                                d="M210.2,0H70.1L0,121l70.1,121h140.1l70.1-121L210.2,0z M132.7,195H89V47h45.8c42.1,0,73.3,20.1,73.3,74 C208.1,172.8,170.6,195,132.7,195z"
+                                                                id="XMLID_9_"></path>
+                                                            </g>
+                                                        </svg></a>
+                                                </td>
+                                                <td>
+                                                    <a href="https://github.com/safinsingh" target="_blank"><svg height="24" role="img"
+                                                                                                                             viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                                            <title>
+                                                                GitHub icon
+                                                            </title>
+                                                            <path
+                                                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
+                                                            </path>
+                                                        </svg></a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <p style="font-size: 1.7vh; margin-top: 0;">
+                                    Hi! My name is Safin Singh. I'm a high school student with a passion for cybersecurity, ethical
+                                    hacking, UI Design, math, and problem solving. I love working with Linux, programming with Python and Go, and
+                                    full-stack development with React!
+                                </p>
+
+
+
+                            </div>
+                            <div class="team-box"
+                                 style="padding: 3vh; margin-top: 5vh; vertical-align: top; display: inline-block;text-align:center !important"
+                                 data-aos="fade-up-left">
+                                <a style="color: black;">
+                                    <p class="pixel-font" style="text-align: center; font-size: 3vh;">Rohan<br>Juneja</p>
+                                </a>
+
+
+                                <div class="container">
+                                    <table class="table" style="text-align: center; margin-bottom: 0;">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <a href="https://play.google.com/store/apps/developer?id=Rohan+Juneja" target="_blank">
+                                                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                                                                                         viewBox="0 0 920.000000 980.000000" preserveAspectRatio="xMidYMid meet">
+                                                            <metadata>
+                                                            Created by potrace 1.16, written by Peter Selinger 2001-2019
+                                                            </metadata>
+                                                            <g transform="translate(0.000000,980.000000) scale(0.100000,-0.100000)"
+                                                               fill="#000000" stroke="none">
+                                                            <path d="M2985 7565 l2230 -2237 747 751 c412 412 748 754 748 758 0 5 -930
+                                                            512 -2067 1128 -1138 616 -2187 1184 -2333 1263 -826 449 -1083 550 -1439 569
+                                                            l-116 6 2230 -2238z" />
+                                                            <path d="M150 9387 c-48 -101 -84 -225 -113 -382 l-22 -120 0 -3985 0 -3985
+                                                            22 -120 c12 -66 34 -160 48 -210 31 -105 100 -258 115 -253 5 1 1038 1029
+                                                            2296 2282 l2286 2279 -2289 2289 c-1258 1258 -2292 2288 -2296 2288 -5 0 -26
+                                                            -37 -47 -83z" />
+                                                            <path d="M6463 5712 l-811 -819 813 -813 814 -814 38 18 c47 22 953 514 1048
+                                                            569 285 164 529 368 661 552 59 84 128 234 148 322 23 102 21 260 -4 359 -72
+                                                            288 -331 575 -739 822 -128 77 -1112 611 -1139 619 -12 3 -253 -234 -829 -815z" />
+                                                            <path d="M4095 3348 c-616 -618 -1620 -1624 -2230 -2237 l-1110 -1113 116 5
+                                                            c281 14 555 104 974 321 99 52 797 428 1550 836 754 408 1808 979 2343 1268
+                                                            534 290 972 530 972 535 0 4 -336 345 -747 758 l-748 750 -1120 -1123z" />
+                                                            </g>
+                                                        </svg>
+
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a href="https://devpost.com/rohanj2006" target="_blank"><svg height="30" id="Layer_1"
+                                                                                                                              version="1.1" viewbox="0 0 280.3 242" width="30" x="0px"
+                                                                                                                                                                               xmlns="http://www.w3.org/2000/svg" y="0px">
+                                                            <g id="XMLID_1_">
+                                                            <path
+                                                                d="M133.7,76H118v90h14.7c30.9,0,45.1-18.1,45.1-45C177.8,90.9,164.9,76,133.7,76z"
+                                                                id="XMLID_6_"></path>
+                                                            <path
+                                                                d="M210.2,0H70.1L0,121l70.1,121h140.1l70.1-121L210.2,0z M132.7,195H89V47h45.8c42.1,0,73.3,20.1,73.3,74 C208.1,172.8,170.6,195,132.7,195z"
+                                                                id="XMLID_9_"></path>
+                                                            </g>
+                                                        </svg></a>
+                                                </td>
+                                                <td>
+                                                    <a href="https://github.com/rjawesome" target="_blank"><svg height="24" role="img"
+                                                                                                                            viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                                            <title>
+                                                                GitHub icon
+                                                            </title>
+                                                            <path
+                                                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
+                                                            </path>
+                                                        </svg></a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <p style="font-size: 1.7vh; margin-top: 0;">
+                                    Hi, I'm a high school student who loves to do Math, Competitive Programming, Software Development,
+                                    Robotics, and CyberSecurity. I compete in many competitions including CyberPatriot, USACO, FTC, and
+                                    numerous Hackathons. In addition, I have made many projects, including an app on the Play Store.
+                                </p>
+
+
+
+                            </div>
+                            <div class="team-box"
+                                 style="padding: 3vh; margin-top: 5vh; vertical-align: top; display: inline-block;text-align:center !important"
+                                 data-aos="fade-up-left">
+                                <a style="color: black;">
+                                    <p class="pixel-font" style="text-align: center; font-size: 3vh;">Aadit<br>Gupta</p>
+                                </a>
+
+
+                                <div class="container">
+                                    <table class="table" style="text-align: center; margin-bottom: 0;">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <a href="https://devpost.com/aaditgupta21" target="_blank"><svg height="30"
+                                                                                                                    id="Layer_1" version="1.1" viewbox="0 0 280.3 242" width="30" x="0px"
+                                                                                                                                                                                  xmlns="http://www.w3.org/2000/svg" y="0px">
+                                                            <g id="XMLID_1_">
+                                                            <path
+                                                                d="M133.7,76H118v90h14.7c30.9,0,45.1-18.1,45.1-45C177.8,90.9,164.9,76,133.7,76z"
+                                                                id="XMLID_6_"></path>
+                                                            <path
+                                                                d="M210.2,0H70.1L0,121l70.1,121h140.1l70.1-121L210.2,0z M132.7,195H89V47h45.8c42.1,0,73.3,20.1,73.3,74 C208.1,172.8,170.6,195,132.7,195z"
+                                                                id="XMLID_9_"></path>
+                                                            </g>
+                                                        </svg></a>
+                                                </td>
+                                                <td>
+                                                    <a href="https://github.com/aaditgupta21" target="_blank"><svg height="24" role="img"
+                                                                                                                               viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                                            <title>
+                                                                GitHub icon
+                                                            </title>
+                                                            <path
+                                                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
+                                                            </path>
+                                                        </svg></a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <p style="font-size: 1.7vh; margin-top: 0;">
+                                    Hi! I'm Aadit Gupta. I am a High School Student who loves to code and build. I hope someday
+                                    my projects will be able to help people in any way possible. I compete in many competitions
+                                    such as CyberPatriot, Hackathons, FIRST, and CTF's. From these competitions I have learned many
+                                    new skills that I hope to pass on.
+                                </p>
+
+
+
+                            </div>
+                            <span class="stretch"></span>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="content">
-                <div class="section" id="projects" style="padding-top: 15vh; height: 150vh;">
-                    <div class="title-box" data-aos="fade-down">
-                        <p class="title">Projects</p>
+            <footer>
+                <p>Copyright 2020 RGBHack<br>
+                    <div class="container" style="width:20vw">
+                        <table class="table table-borderless" style="text-align: center;">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="mailto:rgbhack@gmail.com" target="_blank">
+                                            <svg width="30" height="30" viewBox="0 0 512 512" id="email">
+                                                <path
+                                                    d="M464 64H48C21.504 64 0 85.504 0 112v288c0 26.496 21.504 48 48 48h416c26.496 0 48-21.504 48-48V112c0-26.496-21.504-48-48-48zm-56.512 32L256 215.616 104.512 96h302.976zM448 416H64V148.672l192 147.68L448 148.64V416z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://www.youtube.com/channel/UCnNCqJ6-4Yk7NgkuTpL89ZQ" target="_blank">
+                                            <svg id="Capa_1" width="30" height="30" style="enable-background:new 0 0 215.094 215.094;"
+                                                                                    version="1.1" viewbox="0 0 215.094 215.094" x="0px" xmlns="http://www.w3.org/2000/svg"
+                                                                                                                                        y="0px">
+                                                <path
+                                                    d="M28.302,32.547C12.673,32.547,0,45.22,0,60.849v93.396c0,15.629,12.673,28.302,28.302,28.302h158.491 c15.629,0,28.301-12.673,28.301-28.302V60.849c0-15.629-12.672-28.302-28.301-28.302H28.302z M90.547,145.583V69.511l50,38.036 L90.547,145.583z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="https://github.com/RGBHack" target="_blank"><svg height="30" role="img"
+                                                                                                              viewbox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
+                                                <title>
+                                                    GitHub icon
+                                                </title>
+                                                <path
+                                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
+                                                </path>
+                                            </svg></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <div class="content-div">
-                        <div class="content-box" style="float: left; padding: 3vh;" data-aos="fade-up-right">
-                            <a style="color: black; text-decoration: underline;" href="https://alzheimersai.tk/" target="_blank">
-                                <p class="pixel-font" style="text-align: left; font-size: 4vh;">AlzheimersAI</p>
-                            </a>
-                            <p style="font-size: 3.2vh; margin-bottom: 0;">A website for early detection and tracking of
-                                Alzheimer's disease using AI. Best Social Good Award at 2020 StanHacks 2 Hackathon, Best Use of
-                                Google Cloud Award and Honorable Mention at 2020 HackDSC Hackathon.</p>
-                            <a href="https://github.com/RGBHack/AlzheimersAI" target="_blank">
-                                <svg class="icon" style="height: 5vh; width: 2vw; display: block; margin: 0 auto; float: right;">
-                                    <use xlink:href="#github-icon"></use>
-                                </svg>
-                            </a>
-                        </div>
-                        <div class="content-box" style="float: right; padding: 3vh;" data-aos="fade-up-left">
-                            <a style="color: black; text-decoration: underline;" href="https://sparkapp.cf/" target="_blank">
-                                <p class="pixel-font" style="text-align: left; font-size: 4vh;">Spark</p>
-                            </a>
-                            <p style="font-size: 3.16vh; margin-bottom: 0;">An empowering all-in-one productivity web app.
-                                Features: Calendar, Tasks, Team Administration,
-                                Project Tracking, Messages, Meetings and Zoom Integration, Discussion Boards. Wolfram Award at 2020
-                                Harmony Hacks.</p>
-                            <a href="https://github.com/RGBHack/Spark" target="_blank">
-                                <svg class="icon" style="height: 5vh; width: 2vw; display: block; margin: 0 auto; float: right;">
-                                    <use xlink:href="#github-icon"></use>
-                                </svg>
-                            </a>
-                        </div>
-                        <div class="content-box" style="float: left; padding: 3vh;" data-aos="fade-up-right">
-                            <a style="color: black; text-decoration: underline;" href="https://fabric-2121.herokuapp.com"
-                                                                                 target="_blank">
-                                <p class="pixel-font" style="text-align: left; font-size: 4vh;">Fabric</p>
-                            </a>
-                            <p style="font-size: 3vh; margin-bottom: 0;">Fabric is an engaging, lightweight, and secure
-                                classroom whiteboard for teachers and students alike. It uses Python Socket technology to enable
-                                communication between users and has a built-in profanity filter to maintain a safe environment.</p>
-                            <a href="https://github.com/RGBHack/Fabric" target="_blank">
-                                <svg class="icon" style="height: 5vh; width: 2vw; display: block; margin: 0 auto; float: right;">
-                                    <use xlink:href="#github-icon"></use>
-                                </svg>
-                            </a>
-                        </div>
-                        <div class="content-box" style="float: right; padding: 3vh;" data-aos="fade-up-left">
-                            <a style="color: black; text-decoration: underline;" href="http://litera.cf/" target="_blank">
-                                <p class="pixel-font" style="text-align: left; font-size: 4vh;">Litera</p>
-                            </a>
-                            <p style="font-size: 3.16vh; margin-bottom: 0;">Litera is an augmented reality learning experience for young students.
-                                We created Litera to address the general lack of visual-based learning tools in our textbook education system.
-                                EchoAR Award at 2020 Epsilon Hacks.</p>
-                            <a href="https://github.com/RGBHack/Litera" target="_blank">
-                                <svg class="icon" style="height: 5vh; width: 2vw; display: block; margin: 0 auto; float: right;">
-                                    <use xlink:href="#github-icon"></use>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="content">
-                <div class="section" id="team" style="padding-top: 15vh;">
-                    <div class="title-box" data-aos="fade-down">
-                        <p class="title">Team</p>
-                    </div>
-                    <div style="margin: auto; width: 94%; text-align: justify;">
-                        <div class="team-box"
-                             style="padding: 3vh; margin-top: 5vh; vertical-align: top; display: inline-block;text-align:center !important"
-                             data-aos="fade-up-right">
-                            <a style="color: black;">
-                                <p class="pixel-font" style="text-align: center; font-size: 3vh;">Raadwan<br>Masum</p>
-                            </a>
-
-
-                            <div class="container">
-                                <table class="table" style="text-align: center; margin-bottom: 0;">
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <a href="https://www.linkedin.com/in/raadwan-masum-9147bb1a5/" target="_blank"><svg
-                                                                                                               height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z">
-                                                        </path>
-                                                    </svg></a>
-                                            </td>
-                                            <td>
-                                                <a href="https://devpost.com/raad1masum" target="_blank"><svg height="30" id="Layer_1"
-                                                                                                                          version="1.1" viewbox="0 0 280.3 242" width="30" x="0px"
-                                                                                                                                                                           xmlns="http://www.w3.org/2000/svg" y="0px">
-                                                        <g id="XMLID_1_">
-                                                        <path
-                                                            d="M133.7,76H118v90h14.7c30.9,0,45.1-18.1,45.1-45C177.8,90.9,164.9,76,133.7,76z"
-                                                            id="XMLID_6_"></path>
-                                                        <path
-                                                            d="M210.2,0H70.1L0,121l70.1,121h140.1l70.1-121L210.2,0z M132.7,195H89V47h45.8c42.1,0,73.3,20.1,73.3,74 C208.1,172.8,170.6,195,132.7,195z"
-                                                            id="XMLID_9_"></path>
-                                                        </g>
-                                                    </svg></a>
-                                            </td>
-                                            <td>
-                                                <a href="https://github.com/raad1masum" target="_blank"><svg height="24" role="img"
-                                                                                                                         viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                                                        <title>
-                                                            GitHub icon
-                                                        </title>
-                                                        <path
-                                                            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
-                                                        </path>
-                                                    </svg></a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <p style="font-size: 1.7vh; margin-top: 0;">
-                                Hi, I'm Raadwan Masum, but I go by "Gravity" and "SamosaSauce" online. I
-                                do everything from cybersecurity and robotics to web development and
-                                competitive programming. Computers, mathematics, and science help explain the world around me;
-                                I don't know what I would do without them.
-                            </p>
-
-
-
-                        </div>
-                        <div class="team-box"
-                             style="padding: 3vh; margin-top: 5vh; vertical-align: top; display: inline-block;text-align:center !important"
-                             data-aos="fade-up-right">
-                            <a style="color: black;">
-                                <p class="pixel-font" style="text-align: center; font-size: 3vh;">Safin<br>Singh</p>
-                            </a>
-
-
-                            <div class="container">
-                                <table class="table" style="text-align: center; margin-bottom: 0;">
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <a href="https://www.linkedin.com/in/safin-singh-b2630918a/" target="_blank"><svg
-                                                                                                             height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z">
-                                                        </path>
-                                                    </svg></a>
-                                            </td>
-                                            <td>
-                                                <a href="https://devpost.com/safinsingh" target="_blank"><svg height="30" id="Layer_1"
-                                                                                                                          version="1.1" viewbox="0 0 280.3 242" width="30" x="0px"
-                                                                                                                                                                           xmlns="http://www.w3.org/2000/svg" y="0px">
-                                                        <g id="XMLID_1_">
-                                                        <path
-                                                            d="M133.7,76H118v90h14.7c30.9,0,45.1-18.1,45.1-45C177.8,90.9,164.9,76,133.7,76z"
-                                                            id="XMLID_6_"></path>
-                                                        <path
-                                                            d="M210.2,0H70.1L0,121l70.1,121h140.1l70.1-121L210.2,0z M132.7,195H89V47h45.8c42.1,0,73.3,20.1,73.3,74 C208.1,172.8,170.6,195,132.7,195z"
-                                                            id="XMLID_9_"></path>
-                                                        </g>
-                                                    </svg></a>
-                                            </td>
-                                            <td>
-                                                <a href="https://github.com/safinsingh" target="_blank"><svg height="24" role="img"
-                                                                                                                         viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                                                        <title>
-                                                            GitHub icon
-                                                        </title>
-                                                        <path
-                                                            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
-                                                        </path>
-                                                    </svg></a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <p style="font-size: 1.7vh; margin-top: 0;">
-                                Hi! My name is Safin Singh. I'm a high school student with a passion for cybersecurity, ethical
-                                hacking, UI Design, math, and problem solving. I love working with Linux, programming with Python and Go, and
-                                full-stack development with React!
-                            </p>
-
-
-
-                        </div>
-                        <div class="team-box"
-                             style="padding: 3vh; margin-top: 5vh; vertical-align: top; display: inline-block;text-align:center !important"
-                             data-aos="fade-up-left">
-                            <a style="color: black;">
-                                <p class="pixel-font" style="text-align: center; font-size: 3vh;">Rohan<br>Juneja</p>
-                            </a>
-
-
-                            <div class="container">
-                                <table class="table" style="text-align: center; margin-bottom: 0;">
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <a href="https://play.google.com/store/apps/developer?id=Rohan+Juneja" target="_blank">
-                                                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                                                                                     viewBox="0 0 920.000000 980.000000" preserveAspectRatio="xMidYMid meet">
-                                                        <metadata>
-                                                        Created by potrace 1.16, written by Peter Selinger 2001-2019
-                                                        </metadata>
-                                                        <g transform="translate(0.000000,980.000000) scale(0.100000,-0.100000)"
-                                                           fill="#000000" stroke="none">
-                                                        <path d="M2985 7565 l2230 -2237 747 751 c412 412 748 754 748 758 0 5 -930
-                                                        512 -2067 1128 -1138 616 -2187 1184 -2333 1263 -826 449 -1083 550 -1439 569
-                                                        l-116 6 2230 -2238z" />
-                                                        <path d="M150 9387 c-48 -101 -84 -225 -113 -382 l-22 -120 0 -3985 0 -3985
-                                                        22 -120 c12 -66 34 -160 48 -210 31 -105 100 -258 115 -253 5 1 1038 1029
-                                                        2296 2282 l2286 2279 -2289 2289 c-1258 1258 -2292 2288 -2296 2288 -5 0 -26
-                                                        -37 -47 -83z" />
-                                                        <path d="M6463 5712 l-811 -819 813 -813 814 -814 38 18 c47 22 953 514 1048
-                                                        569 285 164 529 368 661 552 59 84 128 234 148 322 23 102 21 260 -4 359 -72
-                                                        288 -331 575 -739 822 -128 77 -1112 611 -1139 619 -12 3 -253 -234 -829 -815z" />
-                                                        <path d="M4095 3348 c-616 -618 -1620 -1624 -2230 -2237 l-1110 -1113 116 5
-                                                        c281 14 555 104 974 321 99 52 797 428 1550 836 754 408 1808 979 2343 1268
-                                                        534 290 972 530 972 535 0 4 -336 345 -747 758 l-748 750 -1120 -1123z" />
-                                                        </g>
-                                                    </svg>
-
-                                                </a>
-                                            </td>
-                                            <td>
-                                                <a href="https://devpost.com/rohanj2006" target="_blank"><svg height="30" id="Layer_1"
-                                                                                                                          version="1.1" viewbox="0 0 280.3 242" width="30" x="0px"
-                                                                                                                                                                           xmlns="http://www.w3.org/2000/svg" y="0px">
-                                                        <g id="XMLID_1_">
-                                                        <path
-                                                            d="M133.7,76H118v90h14.7c30.9,0,45.1-18.1,45.1-45C177.8,90.9,164.9,76,133.7,76z"
-                                                            id="XMLID_6_"></path>
-                                                        <path
-                                                            d="M210.2,0H70.1L0,121l70.1,121h140.1l70.1-121L210.2,0z M132.7,195H89V47h45.8c42.1,0,73.3,20.1,73.3,74 C208.1,172.8,170.6,195,132.7,195z"
-                                                            id="XMLID_9_"></path>
-                                                        </g>
-                                                    </svg></a>
-                                            </td>
-                                            <td>
-                                                <a href="https://github.com/rjawesome" target="_blank"><svg height="24" role="img"
-                                                                                                                        viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                                                        <title>
-                                                            GitHub icon
-                                                        </title>
-                                                        <path
-                                                            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
-                                                        </path>
-                                                    </svg></a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <p style="font-size: 1.7vh; margin-top: 0;">
-                                Hi, I'm a high school student who loves to do Math, Competitive Programming, Software Development,
-                                Robotics, and CyberSecurity. I compete in many competitions including CyberPatriot, USACO, FTC, and
-                                numerous Hackathons. In addition, I have made many projects, including an app on the Play Store.
-                            </p>
-
-
-
-                        </div>
-                        <div class="team-box"
-                             style="padding: 3vh; margin-top: 5vh; vertical-align: top; display: inline-block;text-align:center !important"
-                             data-aos="fade-up-left">
-                            <a style="color: black;">
-                                <p class="pixel-font" style="text-align: center; font-size: 3vh;">Aadit<br>Gupta</p>
-                            </a>
-
-
-                            <div class="container">
-                                <table class="table" style="text-align: center; margin-bottom: 0;">
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <a href="https://devpost.com/aaditgupta21" target="_blank"><svg height="30"
-                                                                                                                id="Layer_1" version="1.1" viewbox="0 0 280.3 242" width="30" x="0px"
-                                                                                                                                                                              xmlns="http://www.w3.org/2000/svg" y="0px">
-                                                        <g id="XMLID_1_">
-                                                        <path
-                                                            d="M133.7,76H118v90h14.7c30.9,0,45.1-18.1,45.1-45C177.8,90.9,164.9,76,133.7,76z"
-                                                            id="XMLID_6_"></path>
-                                                        <path
-                                                            d="M210.2,0H70.1L0,121l70.1,121h140.1l70.1-121L210.2,0z M132.7,195H89V47h45.8c42.1,0,73.3,20.1,73.3,74 C208.1,172.8,170.6,195,132.7,195z"
-                                                            id="XMLID_9_"></path>
-                                                        </g>
-                                                    </svg></a>
-                                            </td>
-                                            <td>
-                                                <a href="https://github.com/aaditgupta21" target="_blank"><svg height="24" role="img"
-                                                                                                                           viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                                                        <title>
-                                                            GitHub icon
-                                                        </title>
-                                                        <path
-                                                            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
-                                                        </path>
-                                                    </svg></a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <p style="font-size: 1.7vh; margin-top: 0;">
-                                Hi! I'm Aadit Gupta. I am a High School Student who loves to code and build. I hope someday
-                                my projects will be able to help people in any way possible. I compete in many competitions
-                                such as CyberPatriot, Hackathons, FIRST, and CTF's. From these competitions I have learned many
-                                new skills that I hope to pass on.
-                            </p>
-
-
-
-                        </div>
-                        <span class="stretch"></span>
-                    </div>
-                </div>
-            </div>
+                </p>
+            </footer>
         </div>
-        <footer>
-            <p>Copyright 2020 RGBHack<br>
-                <div class="container" style="width:20vw">
-                    <table class="table table-borderless" style="text-align: center;">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <a href="mailto:rgbhack@gmail.com" target="_blank">
-                                        <svg width="30" height="30" viewBox="0 0 512 512" id="email">
-                                            <path
-                                                d="M464 64H48C21.504 64 0 85.504 0 112v288c0 26.496 21.504 48 48 48h416c26.496 0 48-21.504 48-48V112c0-26.496-21.504-48-48-48zm-56.512 32L256 215.616 104.512 96h302.976zM448 416H64V148.672l192 147.68L448 148.64V416z">
-                                            </path>
-                                        </svg>
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="https://www.youtube.com/channel/UCnNCqJ6-4Yk7NgkuTpL89ZQ" target="_blank">
-                                        <svg id="Capa_1" width="30" height="30" style="enable-background:new 0 0 215.094 215.094;"
-                                                                                version="1.1" viewbox="0 0 215.094 215.094" x="0px" xmlns="http://www.w3.org/2000/svg"
-                                                                                                                                    y="0px">
-                                            <path
-                                                d="M28.302,32.547C12.673,32.547,0,45.22,0,60.849v93.396c0,15.629,12.673,28.302,28.302,28.302h158.491 c15.629,0,28.301-12.673,28.301-28.302V60.849c0-15.629-12.672-28.302-28.301-28.302H28.302z M90.547,145.583V69.511l50,38.036 L90.547,145.583z">
-                                            </path>
-                                        </svg>
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="https://github.com/RGBHack" target="_blank"><svg height="30" role="img"
-                                                                                                          viewbox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
-                                            <title>
-                                                GitHub icon
-                                            </title>
-                                            <path
-                                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
-                                            </path>
-                                        </svg></a>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </p>
-        </footer>
+        <div class="mobile">
+            <h1>This site isn't yet optimized for smaller screens. For a better experience, please visit it on a computer. Sorry for the inconvenience!</h1>
+        </div>
         <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i
                                                                               class="fas fa-chevron-up"></i></a>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
