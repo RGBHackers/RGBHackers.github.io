@@ -224,13 +224,13 @@ li a:hover {
 .award-list {
     overflow: auto;
     font-family: "Space Mono", monospace !important;
-    font-size: 3vh !important;
+    font-size: 4vh !important;
     list-style: none;
 }
 
 .award-list li {
     font-family: "Space Mono", monospace !important;
-    font-size: 2.6vh !important;
+    font-size: 2.3vh !important;
 }
 
 .award-list li:before {
