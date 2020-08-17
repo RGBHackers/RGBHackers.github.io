@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Press+Start+2P&display=swap');
+
 html,
 body {
   margin: 0;
   background-image: url("../img/bg.jpg");
   color: black;
+    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Press Start 2P', cursive;*/
 }
 
 section .container {
@@ -36,7 +40,7 @@ nav .navbar-logo img {
 nav .navbar {
   display: inline-block;
   float: right;
-  width: 25rem;
+  width: 27rem;
   margin: 1rem 0;
 }
 
