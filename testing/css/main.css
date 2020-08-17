@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Press+Start+2P&display=swap');
 
+::root {
+    --re
+}
+
 html,
 body {
   margin: 0;
@@ -58,4 +62,25 @@ nav .navbar li {
 
 nav .navbar a {
   text-decoration: none;
+}
+
+.navbar ul li:nth-child(1) a {
+    background: -webkit-linear-gradient(0deg, #f64040ff, #ffb217ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar ul li:nth-child(2) a {
+    background: -webkit-linear-gradient(0deg, #3cff4aff, #2bffe5ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar ul li:nth-child(3) a {
+    background: -webkit-linear-gradient(0deg, #2e56ffff, #774cffff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
