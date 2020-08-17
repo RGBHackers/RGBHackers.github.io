@@ -3,3 +3,8 @@ body {
   background-image: url("../img/bg.jpg");
   color: black;
 }
+
+section .container {
+    width: 950px;
+    margin: 0 auto;
+}
