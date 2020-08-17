@@ -1,10 +1,20 @@
 html,
 body {
-  background-image: url("../img/bg.jpg");
-  color: black;
+    margin: 0;
+    background-image: url("../img/bg.jpg");
+    color: black;
 }
 
 section .container {
     width: 950px;
     margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    background-color: white;
+}
+
+nav .navbar-logo img {
+    width: 20rem;
 }
