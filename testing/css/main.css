@@ -6,6 +6,7 @@ body {
   background-image: url("../img/bg.jpg");
   color: black;
   font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 section .container {
