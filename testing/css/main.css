@@ -309,12 +309,17 @@ nav .navbar a {
 
 .main-box-rgb div {
     width: 100%;
-    height: 33.3333333333333%;
+    height: 25.4%;
     text-align: center;
+    padding-top: 2.5rem;
 }
 
-.main-box-rgb div p {
-    margin: 0;
+.main-box-rgb div span {
+    margin: auto;
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  font-size: 5rem;
+  height: 100%;
 }
 
 .main-box-rgb div:nth-child(1) {
