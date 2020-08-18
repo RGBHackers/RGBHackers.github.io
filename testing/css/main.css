@@ -266,6 +266,7 @@ nav .navbar a {
 .main-box-text {
     float: left;
     width: 80%;
+    margin: 1rem 0;
 }
 
 .main-box-text h1 {
@@ -313,7 +314,11 @@ nav .navbar a {
     }
     
     .home div h1 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+    }
+
+    .main-box-rgb {
+        display: none;
     }
 }
 
