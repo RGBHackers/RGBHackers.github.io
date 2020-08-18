@@ -318,15 +318,15 @@ nav .navbar a {
 }
 
 .main-box-rgb div:nth-child(1) {
-  background: -webkit-linear-gradient(0deg, #f64040ff, #ffb217ff);
+  background: -webkit-linear-gradient(-90deg, #f64040ff, #ffb217ff);
 }
 
 .main-box-rgb div:nth-child(2) {
-  background: -webkit-linear-gradient(0deg, #3cff4aff, #2bffe5ff);
+  background: -webkit-linear-gradient(-90deg, #3cff4aff, #2bffe5ff);
 }
 
 .main-box-rgb div:nth-child(3) {
-  background: -webkit-linear-gradient(0deg, #2e56ffff, #774cffff);
+  background: -webkit-linear-gradient(-90deg, #2e56ffff, #774cffff);
 }
 
 @media screen and (max-width: 950px) {
