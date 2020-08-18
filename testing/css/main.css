@@ -268,7 +268,14 @@ nav .navbar a {
 }
 
 @media screen and (max-width: 950px) {
-
+    .home div {
+        width: 400px;
+        height: 200px;
+    }
+    
+    .home div h1 {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 850px) {
