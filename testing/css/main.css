@@ -24,6 +24,8 @@ nav {
   background-color: white;
   font-family: "Press Start 2P", cursive;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  position: fixed;
+  top: 0;
 }
 
 nav div {
