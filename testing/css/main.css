@@ -313,6 +313,22 @@ nav .navbar a {
     text-align: center;
 }
 
+.main-box-rgb div p {
+    margin: 0;
+}
+
+.main-box-rgb div:nth-child(1) {
+  background: -webkit-linear-gradient(0deg, #f64040ff, #ffb217ff);
+}
+
+.main-box-rgb div:nth-child(2) {
+  background: -webkit-linear-gradient(0deg, #3cff4aff, #2bffe5ff);
+}
+
+.main-box-rgb div:nth-child(3) {
+  background: -webkit-linear-gradient(0deg, #2e56ffff, #774cffff);
+}
+
 @media screen and (max-width: 950px) {
     .home div {
         width: 400px;
