@@ -258,8 +258,13 @@ nav .navbar a {
     margin: 6rem auto;
     width: 950px;
     height: 500px;
+    padding: 1rem 2rem;
     background: white;
     box-shadow: 5px 10px 18px #888888;
+}
+
+.home div h1 {
+    font-weight: normal;
 }
 
 @media screen and (max-width: 950px) {
