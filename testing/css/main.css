@@ -265,6 +265,12 @@ nav .navbar a {
 
 .home div h1 {
     font-weight: normal;
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.home div h1 span {
+  font-family: "Press Start 2P", cursive;
 }
 
 .home div h1 span:nth-child(2) {
