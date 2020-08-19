@@ -345,15 +345,19 @@ nav .navbar a {
     text-align: center;
 }
 
-.awards h1 {
-    width: 10rem;
+.awards .header {
+    width: 100%;
+    padding: 1.5rem 0;
+    background-color: white;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.awards .header h1 {
     margin: 0 auto;
+    font-size: 2.5rem;
     font-weight: normal;
   font-family: "Press Start 2P", cursive;
-  background: -webkit-linear-gradient(0deg, #f64040ff, #ffb217ff);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: black;
 }
 
 @media screen and (max-width: 950px) {
