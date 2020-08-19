@@ -341,6 +341,21 @@ nav .navbar a {
   background: -webkit-linear-gradient(-90deg, #2e56ffff, #774cffff);
 }
 
+.awards {
+    text-align: center;
+}
+
+.awards h1 {
+    width: 10rem;
+    margin: 0 auto;
+    font-weight: normal;
+  font-family: "Press Start 2P", cursive;
+  background: -webkit-linear-gradient(0deg, #f64040ff, #ffb217ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @media screen and (max-width: 950px) {
   .home div {
     width: 400px;
