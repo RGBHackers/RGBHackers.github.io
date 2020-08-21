@@ -5,7 +5,7 @@ body {
   margin: 0;
   color: black;
   /*font-family: "Open Sans", sans-serif;*/
-    font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
   background-image: url("../img/bg.jpg");
   background-size: cover;
   background-position: center;
@@ -343,43 +343,43 @@ nav .navbar a {
 }
 
 .awards {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .awards .header {
-    text-align: center;
-    padding: 1rem 0;
-    background-color: white;
-    box-shadow: 5px 10px 18px #888888;
-    margin-bottom: 3rem;
+  text-align: center;
+  padding: 1rem 0;
+  background-color: white;
+  box-shadow: 5px 10px 18px #888888;
+  margin-bottom: 3rem;
 }
 
 .awards .header p {
-    font-size: 2rem;
+  font-size: 2rem;
   font-family: "Press Start 2P", cursive;
 }
 
 .awards-list {
-    background: white;
-    padding: 1rem 2rem;
-    box-shadow: 5px 10px 18px #888888;
-    margin-bottom: 5rem;
+  background: white;
+  padding: 1rem 2rem;
+  box-shadow: 5px 10px 18px #888888;
+  margin-bottom: 5rem;
 }
 
 .awards-list ul li {
-    font-size: 1.9rem;
+  font-size: 1.9rem;
 }
 
 .awards-list ul li:before {
-    content: "\2B50";
-    margin-left: -40px;
-    margin-right: 20px;
+  content: "\2B50";
+  margin-left: -40px;
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 950px) {
-    section .container {
-        width: 400px;
-    }
+  section .container {
+    width: 400px;
+  }
 
   .home div {
     width: 400px;
@@ -391,7 +391,7 @@ nav .navbar a {
   }
 
   .main-box-text {
-      margin: 1rem 0;
+    margin: 1rem 0;
   }
 
   .main-box-rgb {
@@ -399,14 +399,14 @@ nav .navbar a {
   }
 
   .awards-list ul li {
-      font-size: 1rem;
+    font-size: 1rem;
   }
 
-.awards-list ul li:before {
+  .awards-list ul li:before {
     content: "\2B50";
     margin-left: -22px;
     margin-right: 12px;
-}
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -432,9 +432,9 @@ nav .navbar a {
 }
 
 @media screen and (max-width: 400px) {
-    section .container {
-        width: 300px;
-    }
+  section .container {
+    width: 300px;
+  }
 
   .home {
     margin-top: 7rem;
