@@ -274,12 +274,12 @@ nav .navbar a {
 .main-box-text {
   float: left;
   width: 80%;
-  margin: 1rem 0;
+  margin: 1.3rem 0;
 }
 
 .main-box-text h1 {
   font-weight: normal;
-  font-size: 3.5rem;
+  font-size: 3.1rem;
   margin: 0;
 }
 
@@ -387,7 +387,11 @@ nav .navbar a {
   }
 
   .home div h1 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+  }
+
+  .main-box-text {
+      margin: 1rem 0;
   }
 
   .main-box-rgb {
