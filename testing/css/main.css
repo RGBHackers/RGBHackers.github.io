@@ -367,7 +367,7 @@ nav .navbar a {
 }
 
 .awards-list ul li {
-    font-size: 2rem;
+    font-size: 1.9rem;
 }
 
 .awards-list ul li:before {
@@ -397,6 +397,16 @@ nav .navbar a {
   .main-box-rgb {
     display: none;
   }
+
+  .awards-list ul li {
+      font-size: 1rem;
+  }
+
+.awards-list ul li:before {
+    content: "\2B50";
+    margin-left: -22px;
+    margin-right: 12px;
+}
 }
 
 @media screen and (max-width: 850px) {
