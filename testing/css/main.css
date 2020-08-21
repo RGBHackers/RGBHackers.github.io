@@ -10,7 +10,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  overflow-x: hidden;
+  overflow-x: auto;
   scroll-behavior: smooth;
 }
 
@@ -359,6 +359,10 @@ nav .navbar a {
 }
 
 @media screen and (max-width: 950px) {
+    section .container {
+        width: 400px;
+    }
+
   .home div {
     width: 400px;
     height: 200px;
@@ -396,6 +400,10 @@ nav .navbar a {
 }
 
 @media screen and (max-width: 400px) {
+    section .container {
+        width: 300px;
+    }
+
   .home {
     margin-top: 7rem;
   }
