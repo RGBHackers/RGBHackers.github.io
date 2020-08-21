@@ -358,6 +358,16 @@ nav .navbar a {
   font-family: "Press Start 2P", cursive;
 }
 
+.awards-list {
+    width: 100%;
+}
+
+.awards-list ul li:before {
+    content: "\2B50";
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
 @media screen and (max-width: 950px) {
     section .container {
         width: 400px;
