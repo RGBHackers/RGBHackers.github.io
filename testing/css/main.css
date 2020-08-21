@@ -350,7 +350,7 @@ nav .navbar a {
     padding: 1rem 0;
     background-color: white;
     box-shadow: 5px 10px 18px #888888;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 .awards .header p {
@@ -359,13 +359,20 @@ nav .navbar a {
 }
 
 .awards-list {
-    width: 100%;
+    background: white;
+    padding: 1rem 2rem;
+    box-shadow: 5px 10px 18px #888888;
+    margin-bottom: 5rem;
+}
+
+.awards-list ul li {
+    font-size: 2rem;
 }
 
 .awards-list ul li:before {
     content: "\2B50";
-    margin-left: -20px;
-    margin-right: 10px;
+    margin-left: -40px;
+    margin-right: 20px;
 }
 
 @media screen and (max-width: 950px) {
